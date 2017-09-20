@@ -619,22 +619,21 @@ EDXAPP_PROCTORING_BACKEND_PROVIDER:
 EDXAPP_COMPREHENSIVE_THEME_DIR: ""
 
 # list of paths to the comprehensive theme directories
-EDXAPP_COMPREHENSIVE_THEME_DIRS:
-  - "{{ EDXAPP_COMPREHENSIVE_THEME_DIR }}"
+EDXAPP_COMPREHENSIVE_THEME_DIRS: ["/edx/app/edxapp/themes"]
 
 # list of paths to the comprehensive theme locale directories
 EDXAPP_COMPREHENSIVE_THEME_LOCALE_PATHS: []
 
 # Name of the default site theme
-EDXAPP_DEFAULT_SITE_THEME: ""
-EDXAPP_ENABLE_COMPREHENSIVE_THEMING: false
+EDXAPP_DEFAULT_SITE_THEME: "synergetics-theme-final"
+EDXAPP_ENABLE_COMPREHENSIVE_THEMING: true
 
 # Git repo for the comprehensive theme (if using a comprehensive theme
 # other than the ones bundled with edx/platform)
-EDXAPP_COMPREHENSIVE_THEME_SOURCE_REPO: ""
+EDXAPP_COMPREHENSIVE_THEME_SOURCE_REPO: "https://github.com/naresh21/synergetics-theme-final.git"
 # Git branch, tag, or revision to check out from
 # EDXAPP_COMPREHENSIVE_THEME_SOURCE_REPO
-EDXAPP_COMPREHENSIVE_THEME_VERSION: ""
+EDXAPP_COMPREHENSIVE_THEME_VERSION: "oxa/master.fic"
 
 # SAML KEYS
 EDXAPP_SOCIAL_AUTH_SAML_SP_PRIVATE_KEY: ''
